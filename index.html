@@ -10,22 +10,28 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <img src="./img/logo.svg" alt="Logo do Instagram" class="logo">
-            <h2>Sempre desenvolvendo e aprimorando metodologias, programas e ferramentas com foco em nossos alunos.</h2>
+    <header>
+        <img src="./img/logo.svg" alt="Logo do Instagram" class="logo">
+    </header>
+    <main>
+        <div class="container">
+            <div class="left">
+                <h1 class="animation">Área do Aluno</h1>
+                <h2>Sempre desenvolvendo e aprimorando metodologias, programas e ferramentas com foco em nossos alunos.</h2>
+            </div>
+            <div>
+                <form class="login">
+                    <input type="text" placeholder="E-mail" autocomplete="off" required>
+                    <input type="password" placeholder="Senha" autocomplete="off" minlength="8" required>
+                    <input type="submit" value="Entrar" class="entrar">
+                    <a href="#">Esqueceu a senha?</a>  
+                </form>
+                <form class="matricula">
+                    <button class="matricule-se">Matricule-se</button>
+                </form>
+            </div>
         </div>
-        <div>
-            
-            <form>
-                <input type="text" placeholder="E-mail">
-                <input type="password" placeholder="Senha">
-                <button class="entrar">Entrar</button>
-                <a href="#">Esqueceu a senha?</a>
-                <button class="matricule-se">Matricule-se</button>
-            </form>
-        </div>
-    </div>
+    </main>
     <footer>
         Criado por Erikclis barbosa -&nbsp; <span id="year"></span>
     </footer>
